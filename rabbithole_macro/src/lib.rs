@@ -52,7 +52,6 @@ fn transform_block(block: &Block) -> proc_macro2::TokenStream {
         let transformed = match stmt {
             Stmt::Local(local) => transform_local_stmt(local),
             _ => {
-                println!("Not an expression: {}", quote! { #stmt });
                 quote! { #stmt }
             }
         };
