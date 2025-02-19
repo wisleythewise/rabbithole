@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "rabbithole_macro",
+    "rabbithole_bin",
+]

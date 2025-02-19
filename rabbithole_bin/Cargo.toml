@@ -1,0 +1,7 @@
+[package]
+name = "rabbithole_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rabbithole_macro = { path = "../rabbithole_macro" }
